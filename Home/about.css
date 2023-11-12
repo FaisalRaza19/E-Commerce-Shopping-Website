@@ -1,0 +1,89 @@
+/* about us section  */
+.about-us{
+    display: grid;
+    position: relative;
+}
+.about-us .about-banner{
+    display: grid;
+    position: relative;
+}
+.about-us .about-banner img{
+    width: 100%;
+    height: 350px;
+}
+.about-us .about-banner h1,p{
+    text-align: center;
+    color: #fff;
+    margin: -4em 0;
+}
+.about-us  .about-banner h1{
+    font-size: 50px;
+    letter-spacing: 2px;
+}
+.about-us  .about-banner p{
+    font-size: 17px;
+    letter-spacing: 2px;
+    margin: -6.5em 0;
+    color: #fff;
+}
+.about-us .about-us-text{
+   display: flex;
+   position: relative;
+   margin: 5em 7em;
+}
+.about-us  .about-us-text img{
+    width: 600px;
+    height: 450px;
+}
+.about-us .about-us-text .about-text{
+    display: grid;
+    position: relative;
+    margin: 0 2em;
+}
+.about-us .about-us-text .about-text h1,p{
+    color: #000;
+}
+.about-us .about-us-text .about-text h1{
+    font-size: 50px;
+}
+.about-us .about-us-text .about-text p{
+    font-size: 18px;
+    letter-spacing: 2px;
+    margin: -30px -20px;
+    margin-bottom: 20px;
+}
+.about-us .about-us-text .about-text abbr{
+    font-size: 18px;
+}
+.about-us .about-us-text .about-text marquee{
+    display: flex;
+    position: relative;
+    background-color: rgba(128, 128, 128, 0.674);
+    width: 100%;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+}
+.about-us .download{
+    text-align: center;
+    margin: 2em 0;
+}
+.about-us .download h1{
+    font-size: 50px;
+    font-family: 'Edu TAS Beginner', cursive;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+}
+.about-us .download .video{
+    width: 70%;
+    height: 100%;
+    margin: 30px auto 0 auto;
+}
+.about-us .download .video video{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
